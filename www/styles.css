@@ -1,0 +1,466 @@
+label.control-label,
+.selectize-control.single {
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+}
+
+label.control-label {
+  padding-right: 10px;
+}
+
+.form-group {
+  display: table-row;
+}
+
+.container-fluid {
+  background-color: #ebecf0;
+}
+
+.box {
+  border-radius: 6px 6px 6px 6px;
+  margin: 5px;
+}
+
+.selectize-input {
+  white-space: nowrap;
+  border-radius: 20px;
+}
+
+body {
+  height: auto;
+  margin: auto;
+  overflow-x: auto;
+}
+
+#bilateral-Partner + .selectize-control {
+  width: 1000px;
+  height: 40px;
+  max-width: 250px;
+}
+
+#bilateral-tradeflow + .selectize-control {
+  width: 800px;
+  height: 40px;
+  max-width: 200px;
+}
+
+#tradeingoods-Tradeflow + .selectize-control {
+  width: 800px;
+  height: 40px;
+  max-width: 200px;
+}
+
+#tradeinservices-ServiceTradeflow + .selectize-control {
+  width: 800px;
+  height: 40px;
+  max-width: 200px;
+}
+
+#reporterdownload-Reporter + .selectize-control {
+  width: 1500px;
+  height: 40px;
+  max-width: 300px;
+}
+
+
+select#reporterdownload-Reporter + .selectize-control {
+  width: 1500px;
+  height: 40px;
+  max-width: 300px;
+}
+
+.mgtop {
+  margin-top: 5px;
+}
+
+.demo {
+  padding: 0 0 0 0px;
+  flex: auto;
+}
+
+.demo_title {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 2px;
+}
+
+.demo_value {
+  color: #0291da;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.demo_year {
+  color: #979797;
+  margin: 0 0 0 0px;
+  font-size: 12px;
+  padding-left: 2px;
+}
+
+.Demo_ym {
+  margin: 0 0 0 0px;
+}
+
+.demo_text {
+  padding-right: 2px;
+}
+
+.demo_icon {
+  color: #0291da;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.demo_icon_div {
+  padding: 0 0 0 0px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.popu {
+  padding-left: 35px;
+}
+
+.text_padding {
+  padding-left: 30px
+}
+
+.text_align {
+  text-align: left
+}
+
+#tradeingoods-country {
+ display: flex;
+ align-items: baseline;
+}
+
+.title{
+  color: #000000;
+  font-weight: bold;
+}
+
+.titlePdd{
+  padding-left: 4px;
+}
+
+.servicesText{
+  font-size: 18px;
+}
+
+.servicesbutton{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.header_padding_1 {
+  padding-left: 30px
+}
+
+.header_padding_2 {
+  padding-left: 97px
+}
+
+
+
+#tradeingoods-treetitle{
+  font-size: 16px;
+}
+
+#tradeingoods-bartitle{
+  font-size: 16px;
+  margin-bottom: 1.5em;
+}
+
+/*#tradeingoods-hs2level{
+  float: right;
+}*/
+
+.servicesnarrat{
+  margin-top: 10px;
+}
+
+.mapTF{
+  margin-bottom:20px;
+}
+
+.barTF{
+  padding-left: 0px;
+}
+
+.button-38 {
+  background-color: #0291da;
+  border: 0;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,
+  "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",
+  sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-38:hover {
+  background-color: rgb(249,250,251);
+}
+
+.button-38:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button-38:focus-visible {
+  box-shadow: none;
+}
+
+#tradeingoods-treemap{
+  bottom: 20px;
+}
+
+
+/*body {
+  font-family:'Helvetica', sans-serif; 
+}*/
+
+/* ON-OFF switch button */
+/* Sébastien Rochette */
+/* http://sebrock.fr/en/ */
+/* CSS modified from : https://proto.io/freebies/onoff/ */
+/* All switch */
+.onoffswitch {
+  width: 75px;
+  position: relative;
+  -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+  font-family:'Helvetica', sans-serif; 
+}
+.onoffswitch-checkbox {
+  display: none;
+}
+.onoffswitch-label {
+  display: block; overflow: hidden; cursor: pointer;
+  border: 2px solid #FFFFFF; border-radius: 30px;
+}
+.onoffswitch-inner {
+  display: block; width: 200%; margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+  display: block; float: left; width: 50%; height: 20px; padding: 0; line-height: 20px;
+  font-size: 12px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+  box-sizing: border-box;
+}
+
+/* All switch - default div class */
+.onoffswitch-inner:before {
+  content: " ";
+  padding-left: 10px;
+}
+
+.onoffswitch-inner:after {
+  content: " ";
+  padding-right: 10px;
+  text-align: right;
+}
+
+.onoffswitch-switch {
+  display: block; width: 10px; height: 10px; margin: 6.5px;
+  position: absolute; top: 0; bottom: 0;
+  border-radius: 30px;
+  right: 56px;
+  transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+  right: 0px;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+}
+
+/* Color change */
+/* RedGreen */
+.RedGreen .onoffswitch-inner:before {
+  background-color: #0291da; color: #FFFFFF;
+}
+.RedGreen .onoffswitch-inner:after {
+  background-color: #54c3ea; color: #FFFFFF;
+}
+
+.RedGreen .onoffswitch-switch {
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+}
+
+/* GreyBlue */ 
+.GreyBlue .onoffswitch-inner:before {
+  background-color: #FFFFFF; color: #428bca;
+}
+.GreyBlue .onoffswitch-inner:after {
+  background-color: #FFFFFF; color: #AAA;
+}
+.GreyBlue .onoffswitch-switch {
+  background: #AAA;
+  border: 2px solid #AAA;
+}
+.GreyBlue .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+  background-color: #428bca;
+}
+
+/* Text change */
+/* On / Off */
+.OnOff .onoffswitch-inner:before {
+  content: "ON";
+}
+
+.OnOff .onoffswitch-inner:after {
+  content: "OFF";
+}
+/* Yes / No */
+.YesNo .onoffswitch-inner:before {
+  content: "YES";
+}
+
+.YesNo .onoffswitch-inner:after {
+  content: "NO";
+}
+/* True / False */
+.TrueFalse .onoffswitch-inner:before {
+  content: "Map";
+}
+
+.TrueFalse .onoffswitch-inner:after {
+  content: "Table";
+}
+.text_down {
+ padding-top: 25px; 
+  
+}
+
+.text_down2 {
+ padding-top: 26px; 
+  
+}
+
+.box_padding {
+  padding-left: 46px; 
+}
+
+.DFT_title{
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.DTF_gauge{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.DTF_score{
+ background-image: linear-gradient(to right, #003e5c, #00527a, #006698, #007bb9, #0291da);
+}
+
+.DTF_row{
+  padding-left: 1px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+}
+
+.DTF_name {
+  font-weight: bold;
+  color: black;
+  padding: 8px;
+  text-align: center;
+}
+
+.DTF_total {
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.DTF_text {
+ padding-top: 26px; 
+  
+}
+
+.DTF_font{
+  font-size: 14px;
+}
+
+.leaflet-container {
+    background: none;
+}
+
+.leaflet-top,
+.leaflet-left .leaflet-control {
+    margin-left: 488px;
+}
+
+.RedGreen.TrueFalse {
+  display:flex;
+}
+
+.RedGreen.TrueFalse,
+.control-label {
+  margin-left: 5px;
+}
+
+.download_button {
+  background-color: #0291da;
+  color: white;
+  font-weight: 900;
+  border-radius: 20px;
+}
+.download_padding {
+  padding-right: 20px;
+}
+
+.digital_cards{
+  padding-top: 18px;
+}
+
+
+.col-sm-6.Reporter_Padding {
+  padding-left: 0px;
+}
+
+.download_button:hover{
+                               
+                                background-color: #1e5e8c;
+                                color: white;
+                                }
+
+.leaflet-right{
+  margin-right: 240px;
+}
+
+svg:not(:root) {
+    overflow: visible;
+}
+.padding_right{
+  padding-right: 25px;
+}
+
+.waiter-overlay-content {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+}
